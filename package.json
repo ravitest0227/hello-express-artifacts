@@ -1,0 +1,27 @@
+{
+  "name": "azure-devops-demo-app",
+  "version": "1.0.1",
+  "description": "A simple Node.js app for our DevOps demo with added caps",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "passport": "^0.7.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "supertest": "^6.3.3"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "reporters": [
+      "default",
+      "jest-junit"
+    ]
+  }
+}
